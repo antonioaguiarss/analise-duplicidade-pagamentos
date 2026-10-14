@@ -89,9 +89,3 @@ python -m unittest discover -s tests -v
 - Restringir acesso aos dados, registrar decisões dos analistas e medir falsos positivos.
 - Em bases grandes, substituir a comparação par a par por blocagem/índices para reduzir custo computacional.
 - Não subir dados reais, CNPJs reais, nomes de clientes ou informações bancárias para repositórios públicos.
-
-## Ideias de evolução
-
-- Dashboard com volume e valor de alertas por mês.
-- Pipeline agendado e integração com ERP.
-- Registro de desfecho do alerta (`confirmado`, `legítimo`, `inconclusivo`) para calibrar regras.
